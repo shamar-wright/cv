@@ -1,0 +1,185 @@
+a {
+  color: #11999E;
+  font-family: 'Alegreya Sans', sans-serif;
+  margin: 10px 20px;
+}
+a:hover {
+  color: #EAF6F6;
+}
+
+body {
+  color: #40514E;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+div {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Yellowtail', cursive;
+  font-size: 5.625rem;
+  /* 16px = 1em = 100% : rem is fixed regardless of parents*/
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Hind Vadodara', sans-serif;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: gray;
+  border-width: 5px;
+  width: 4%;
+  margin: 100px auto;
+}
+p {
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+/* ***************************************************** */
+.top {
+  background-color: #EAF6F6;
+  /* #F3F9FB; */
+  position: relative;
+  padding-top: 100px;
+  /* height: 200px;
+  width: 200px;
+  padding: 20px;
+  border: solid 10px; */
+}
+
+.middle {
+  background-color: #F3F9FB;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* height: 200px;
+  width: 200px;
+  border: solid 20px;
+  margin-left: 260px; */
+}
+
+.bottom {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  /* width: 200px;
+  margin-left: 500px;
+  border: solid 20px; */
+}
+.pro {
+  font-style: bold;
+  text-decoration: underline;
+}
+
+.tcloud {
+  position: absolute;
+  top: 50px;
+  right: 150px;
+}
+
+.bcloud {
+  position: absolute;
+  left: 100px;
+  bottom: 300px;
+}
+
+.sizing {
+  border-radius: 100%;
+  height: 250px;
+  width: 250px;
+  margin: 0px auto 0px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  /* Centers anything */
+  text-align: left;
+  /* Overrrides body text-align */
+  line-height: 2;
+}
+.drone {
+  border-radius: 50%;
+  width: 31%;
+  float: left;
+  margin-right: 30px;
+}
+.ms {
+  border-radius: 50%;
+  width: 31%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skilldesc {
+  margin: 0px auto 100px auto;
+}
+.skilldesc1 {
+  /* clear: right; */
+  /* prevented from wrapping around image on the right */
+  margin: 0px auto 100px auto;
+}
+.contact-me {
+  width: 40%
+  margin: 40px auto 60px;
+}
+.butn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Hind Vadodara', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2CB48D);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2CB48D);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2CB48D);
+  background-image: -o-linear-gradient(top, #30E3CB, #2CB48D);
+  background-image: linear-gradient(to bottom, #30E3CB, #2CB48D);
+  text-decoration: none;
+}
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+}
+.watermark {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/* ***************************************************** */
+
+#bio {
+  width: 30%;
+  margin: 0px auto 100px auto;
+  text-align: center;
+
+}
