@@ -1,78 +1,101 @@
+<!--html:4t and hit tab- this shows boilerplate for HTML 4! -->
+
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <title>Shamar</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Hind+Vadodara|Kaushan+Script|Yellowtail" rel="stylesheet">
+  <!-- That is Unicode 8: https://unicode-table.com -->
+  <!--look a meta attributes-->
+  <title> Shamar Wright</title>
+  <!-- CSS file linked below this comment
+  CSS code below😎-->
+  <!-- background-color: turquoise;
+       height: 0px;
+
+
+  <style>
+    body {
+      background-color: #DEECFF;
+    }
+
+    hr {
+      border-style: none;
+      border-top-style: dotted;
+      border-color: grey;
+      border-width: 5px;
+      width: 5%;
+    }
+  </style>
+-->
+<link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <div class="top">
-    <img class="tcloud"src="images/cloud.png" alt="Cloud Image">
-    <h1>I'm Shamar,</h1>
-    <h2 class="fweight">a computer <span class = "pro">pro</span>grammer.</h2>
-    <img class= "bcloud"src="images/cloud.png" alt="Cloud Image">
-    <img src="images/mountain.png" alt="Mountain Image">
-  </div>
-
-  <!-- <div class="middle">
-
-  </div>
-
-  <div class="bottom">
-
-  </div> -->
+  <table cellspacing="20">
+    <tr>
+      <td><img src="profile1.jpg" width="270" height="270" border="3" alt="Shamar Profile Picture"></td>
+      <td>
+        <h1>Shamar Wright</h1>
+        <p><em>Computer Science at the <strong><a href="https://welcome.miami.edu/">University of Miami</a></strong></em></p>
+        <p>I am a student at UM. 😎 </p>
+        <p>Keep reading to learn more.</p>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <h3>Education</h3>
+  <ul>
+    <li>Florida SouthWestern State College</li>
+    <li>Florida Gulf Coast University</li>
+    <li>University of Miami</li>
+  </ul>
+  <h3>Work Experience</h3>
+  <table border="2" bgcolor="COCOCO">
+    <thead>
+      <th>Dates</th>
+      <th>Position</th>
+      <th>Location</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>July 2015-August 2016</td>
+        <td>Ride Operator - Zoomers</td>
+        <td>Fort Myers, FL</td>
+      </tr>
+      <tr>
+        <td>June 2018-August 2018</td>
+        <td>Appointment Coordinator - Lynx Services</td>
+        <td>Fort Myers, FL</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <tr>
+      <td>Microsoft Office</td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Drone Piloting</td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Public Speaking</td>
+      <td>⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Management</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+  </table>
+  <h3>Memories</h3>
+  <ol type="I">
+    <li>March 18th</li>
+    <li>March 22nd</li>
+  </ol>
+  <!--<a download href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">Download HTML Cheatsheet</a>-->
+  <a href="hobbies.html">My Hobbies</a>
+  <br>
+  <a href="contact.html">Contact Me</a>
 </body>
-
-<!--  -->
-
-<div class="middle">
-  <div class="profile">
-    <img class= "sizing" src="images/profile1.jpg" alt="Shamar Photo">
-    <h2>Hello.</h2>
-    <p id= "bio">I am a computer science student at the University of Miami. I am a web developer,
-      guitar player, and UAS pilot. I enjoy creating new things, and always learning
-      ways to be innovative and independent of automation. </p>
-  </div>
-  <hr>
-  <div class="skills">
-    <h2>My Skills</h2>
-    <div class="skill-row">
-      <img class="drone" src="https://i.gifer.com/Hgnh.gif" alt="Drone">
-      <h3>Aerial Photography</h3>
-      <p class = "skilldesc"> At 18, once I got up in the sky with my DJI Mavic Pro,
-        my eyes were opened. I was seeing the world in a new
-        way no one could ever understand. I am now a 14 CFR Part 107 certified drone
-        pilot, and have gained a primary focus on real estate projects, events, and
-        videography.</p>
-    </div>
-    <div class="skill-row">
-      <img class="ms" src="images/computer.png" alt="MS Office">
-      <h3>Microsoft Office</h3>
-      <p class = "skilldesc1">I am also Microsoft Office certified. As an appointment
-        coordinator for Lynx Services, and  business minor, I primarily work with
-        Excel for accounting, Outlook for setting appointments, and Access for creating
-        databases and keeping track of customer info and sales.</p>
-    </div>
-  </div>
-  <hr>
-  <div class="contact-me">
-    <h2>Get In Touch</h2>
-    <h3>If we share similar interests...</h3>
-    <p>Like flying drones? Are you a student at UM? Simply want to learn more? Let's get to know each other!</p>
-    <br><br>
-    <a class="butn" href="mailto:shamar98@hotmail.com">CONTACT ME</a>
-  </div>
-</div>
-
-
-<div class="bottom">
-  <a class="footer-link" href="https://www.instagram.com/shamar/">Instagram</a>
-  <a class="footer-link" href="https://news.miami.edu/stories/2018/10/future-programmers-found-across-all-disciplines.html">UM Computer Science</a>
-  <a class="footer-link" href="https://www.appbrewery.co/">App Brewery</a>
-  <p class= "watermark">© 2019 Shamar Wright.</p>
-</div>
-</html>
